@@ -12,17 +12,17 @@ this mod adds:
 All credits go to [https://github.com/mrjohannchang/winwifi].
 
 
-usage:
+usage
 
-''' python -m main.py scan '''
+<code>python -m main.py scan</code>
 
 If you copy and paste on winwifi folder (C:\Users\%user%\AppData\Roaming\Python\Python312\site-packages\winwifi)
 
 you can run 
 
-''' python -m winwifi scan'''
+<code>python -m winwifi scan</code>
 
-''' python app.py ''' 
+<code>python app.py</code>
 
 will start the flask app.
 
