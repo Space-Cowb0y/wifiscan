@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi Scan Data</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">WiFi Scan Data</h1>
+        <div class="mt-5">
+            <h2>Gráfico</h2>
+            <div id="graph">
+                {{ graph_html|safe }}
+            </div>
+        </div>
+        <div class="mt-5">
+            <h2>Redes abertas</h2>
+            <div id="graph">
+                {{ grapho_html|safe }}
+            </div>
+        </div>
+        <div class="mt-5">
+            <h2>Tabela</h2>
+            <div id="dash-table">
+                <!-- Dash app will be embedded here -->
+                <iframe src="/dash/" width="100%" height="600px" style="border:none;"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
