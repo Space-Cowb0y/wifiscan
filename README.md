@@ -16,7 +16,7 @@ usage
 
 <code>python -m main.py scan</code>
 
-If you copy and paste on winwifi folder (C:\Users\%user%\AppData\Roaming\Python\Python312\site-packages\winwifi)
+If you have any problem running this on a company env intall the original package and copy/paste all this repo on winwifi folder (C:\Users\%user%\AppData\Roaming\Python\Python312\site-packages\winwifi)
 
 you can run 
 
