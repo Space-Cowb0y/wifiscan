@@ -14,9 +14,13 @@ All credits go to [https://github.com/mrjohannchang/winwifi].
 
 usage
 
+<code>pip install pandas flask plotly.io dash functools comtypes ctypes fpdf time typing datetime tempfile sys subprocess os pkgutil</code>
+
 <code>python -m main.py scan</code>
 
-If you have any problem running this on a company env install the original package and copy/paste all this repo on winwifi folder (C:\Users\%user%\AppData\Roaming\Python\Python312\site-packages\winwifi)
+###### I preferer the method below
+
+If you have any problem running this on a company env install the original package and copy/paste all this repo on winwifi folder (C:\Users\%user%\AppData\Roaming\Python\Python312\site-packages\winwifi) 
 
 you can run 
 
